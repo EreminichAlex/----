@@ -268,29 +268,29 @@ main {
     max-width: 224px;
     min-height: 203px;
     border-radius: 30px;
-    color: #FFF;
-}
-.info-nav-cards a {
-    max-width: 224px;
-    max-height: 264px;
+    color: #FFF;    
     width: 100%;
 }
-.info-nav-cards:nth-child(1) {
+
+.info-card-item h2 {
+    text-align: center;
+}
+.info-nav-cards .info-card-item:nth-child(1) {
     background-image: url(/card-info-img1.png);
     background-repeat: no-repeat;
 }
 
-.info-nav-cards:nth-child(2) {
+.info-nav-cards .info-card-item:nth-child(2) {
     background-image: url(/card-info-img2.png);
     background-repeat: no-repeat;
 }
 
-.info-nav-cards:nth-child(3) {
+.info-nav-cards .info-card-item:nth-child(3) {
     background-image: url(/card-info-img3.png);
     background-repeat: no-repeat;
 }
 
-.info-nav-cards:nth-child(4) {
+.info-nav-cards .info-card-item:nth-child(4) {
     background-image: url(/card-info-img4.png);
     background-repeat: no-repeat;
 }
